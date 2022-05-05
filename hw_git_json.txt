@@ -1,0 +1,56 @@
+
+Json
+
+4. Создать внеш. репозиторий с назв. JSON:  cd mkdir gr_28.git.json
+
+5. Клонировать реп.JSON на локальный комп.:   1)cd gr_28.git.json 2)находимся в (main) 3)зашли в аккаунт GitHub,нажали Code,скопир.ссылку HTTPS 4)в GitBash пишем
+
+git clone и вставили ссылку HTTPS
+
+6. Внутри локального JSON созд. файл "new.json":  touch new.json
+
+7. Добавить файл под гит.:  1)git status ,файл "new.json" красного цвета 2)git add new.json 3)git status,файл "new.json" зеленый - можно коммитить
+
+8. Закоммитить файл: 1)git commit -m "add new.json" 2)git status
+
+9. Отправить файл на внешний репозиторий GitHub:  git push
+
+10. Отредактировать содерж.файла "new.json"- инфо о себе(ФИО,возраст,желаемая з.п.): 1)vim new.json 2)insert 3){
+                                                                                                                 "name":"Valery",
+                                                                                                                 "surname":"Shumik",
+                                                                                                                 "age": 43
+                                                                                                                }
+
+11. Отправить изменения на внеш. реп. : 1)git commit -am "change new.json" 2)git push
+
+12. Создать файл "preferences.json" : touch preferences.json  13.Доб.в файл предпочтения 1)vim preferences.json 2)insert 3) {
+                                                                                                                             "favorite film":"Forest Gump",
+                                                                                                                             "favorite season":"Spring",
+                                                                                                                             "favorite country":"India"
+                                                                                                                            }
+14. Создать файл skills.json и добавить инфу о скиллах в формате JSON : 1)vim skills.json 2)insert
+                                                                       3){
+                                                                           "hardskills":"knowledge of test documentation,GitHub,Postman,SQL"
+                                                                         }
+15. Отправить сразу 2 файла на внеш.реп.:  1)git add .  2)git commit -m "add preferences.json skills.json" 3)git status 4)git push
+
+16. На веб интефейсе создать файл bug_report.json: 1)add file 2)create new  file bug_report.json {
+                                                                                                   "bug report": 5
+                                                                                                 }
+
+17.Сделать Commit changes (сохранить) изменения на веб интерфейсе: commit new file 
+
+                                                                                      
+18.На веб интерфейсе модифицировать файл bug_report.json,добавить баг репорт в формате JSON: 1) bug_report.json 2)edit this file {
+                                                                                                                                   "bug report": 10
+                                                                                                                                 }
+
+
+19.Сделать Commit changes (сохранить) изменения на веб интерфейсе: commit changes
+
+
+
+20.Синхронизировать внешний и локальный репозиторий JSON:1) git fetch 2)git pull 3) git push
+
+   
+                                                                                                                  
