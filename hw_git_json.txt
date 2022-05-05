@@ -1,7 +1,7 @@
 
 Json
 
-4. Создать внеш. репозиторий с назв. JSON:  cd mkdir gr_28.git.json
+4. Создать внеш. репозиторий с назв. JSON:  valeryshumik/gr_28.git.json
 
 5. Клонировать реп.JSON на локальный комп.:   1)cd gr_28.git.json 2)находимся в (main) 3)зашли в аккаунт GitHub,нажали Code,скопир.ссылку HTTPS 4)в GitBash пишем
 
